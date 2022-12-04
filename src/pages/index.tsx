@@ -1,5 +1,21 @@
+import Link from "next/link";
+
 const Home = () => {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <header>
+        <h1>Tailwind CSS Study</h1>
+      </header>
+
+      <main>
+        <ul>
+          <li>
+            <Link href="/basic">Basic</Link>
+          </li>
+        </ul>
+      </main>
+    </>
+  );
 };
 
 export default Home;
